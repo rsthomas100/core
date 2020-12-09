@@ -2,7 +2,7 @@ module.exports = {
     "@arkecosystem/core-event-emitter": {},
     "@arkecosystem/core-logger-pino": {},
     "@arkecosystem/core-p2p": {
-        minimumNetworkReach: 5,
+        minimumNetworkReach: 17,
         server: {
             port: process.env.CORE_P2P_PORT || 4002,
         },
